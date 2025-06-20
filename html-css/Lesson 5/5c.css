@@ -1,0 +1,43 @@
+p {
+    font-family: Verdana;
+    margin: 0;
+}
+
+.title-para {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.level-para {
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.descr-para {
+    font-size: 15px;
+    margin: 20px 0 15px 0;
+    width: 275px;
+}
+
+.start-button {
+    color: white;
+    background-color: green;
+    border-width: 1px;
+    border-color: green;
+    padding: 5px 10px 5px 10px;
+
+    transition: margin 250ms, color 250ms, color 250ms;
+}
+
+.start-button:hover {
+    opacity: 0.7;
+}
+
+.start-button:active {
+    opacity: 1;
+    margin: -2px 0px 0px 2px;
+    color: green;
+    background-color: white;
+    border-color: green;
+}
