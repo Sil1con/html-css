@@ -1,0 +1,21 @@
+img {
+    margin: 0px 10px 0px 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.a-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.b-img {
+    width: 200px;
+    height: 200px;
+}
+
+.c-img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+}

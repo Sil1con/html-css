@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Request a ride</title>
+        <style>
+            .request-para {
+                margin: 0;
+                margin-bottom: 15px;
+                font-family: Arial;
+                font-size: 30px;
+            }
+
+            input {
+                width: 275px;
+                display: block;
+                padding: 10px 15px 10px 15px;
+                color: rgb(140, 140, 140);
+                background-color: rgb(255, 245, 234);
+                border: none;
+            }
+
+            .first {
+                margin-bottom: 8px;
+            }
+
+            .second {
+                margin-bottom: 30px;
+            }
+
+            button {
+                padding: 10px 12px 10px 12px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .request-button {
+                color: white;
+                background-color: black;
+                margin-right: 15px;
+            }
+
+            .request-button:active {
+                opacity: 1;
+                color: black;
+                background-color: white;
+            }
+
+            .schedule-button {
+                background-color: rgb(255, 245, 234);
+            }
+
+            button:hover {
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="request-para">Request a ride now</p>
+        
+        <input class="first" type="text" placeholder="Enter pickup location">
+        <input class="second" type="text" placeholder="Enter destination">
+
+        <button class="request-button">Request now</button>
+        <button class="schedule-button">Schedule for later</button>
+    </body>
+</html>
