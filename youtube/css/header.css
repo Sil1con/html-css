@@ -93,6 +93,29 @@
     height: 30px;
 }
 
+.notify-icon-container {
+    position: relative;
+}
+
+.notify-count {
+    padding: 2px 6px 2px 6px;
+    background-color: rgb(197, 0, 0);
+    
+    border: solid;
+    border-width: 0.5px;
+    border-color: white;
+    border-radius: 15px;
+    
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 13px;
+
+    position: absolute;
+    top: -1px;
+    right: -6px;
+}
+
 .notify-icon {
     height: 30px;
 }

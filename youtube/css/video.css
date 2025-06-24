@@ -20,6 +20,24 @@
     height: 100%;
 }
 
+.video-picture-container {
+    position: relative;
+}
+
+.video-time {
+    color: white;
+    background-color: black;
+
+    padding: 3px 4px 3px 4px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    border-radius: 4px;
+
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
 .video-picture {
     width: 100%;
     border-radius: 10px;
