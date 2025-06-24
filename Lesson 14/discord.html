@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>discord</title>
+        <link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900">
+        <style>
+            body {
+                margin: 0;
+                padding-bottom: 2500px;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .sidebar, .sidebar-grid {
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+            }
+
+            .sidebar-grid {
+                width: 300px;
+                display: grid;
+                grid-template-columns: 80px 1fr;
+            }
+
+            .profile-bar {
+                padding: 10px 15px 0px 15px;
+                background-color: rgb(58, 58, 58);
+            }
+
+            .profiles-grid {
+                display: grid;
+                grid-template-rows: 50px;
+                row-gap: 15px;
+            }
+
+            .info-bar {
+                padding: 10px 20px 0px 20px;
+                background-color: rgb(92, 92, 92);
+            }
+
+            .info-grid {
+                display: grid;
+                grid-template-rows: 50px 1fr;
+            }
+            
+            .info-creation {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: start;
+            }
+        
+            .info-text {
+                color: white;
+                margin-top: 3px;
+                font-size: 15px;
+                font-weight: bold;
+                font-family: Roboto, Arial;
+            }
+
+            .info-button {
+                padding: 0;
+                border: none;
+                background-color: transparent;
+            }
+
+            .info-img {
+                width: 100%;
+                height: 20px;
+            }
+
+            .profile-img {
+                width: 50px;
+                height: 50px;
+            }
+
+            .actual-img {
+                width: 100%;
+                height: 50px;
+                border-radius: 50%; 
+                object-fit: cover;
+                object-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="sidebar-grid">
+                <div class="profile-bar">
+                    <div class="profiles-grid">
+                        <div class="profile-img">
+                            <img class="actual-img" src="./pics/dog.jfif">
+                        </div>
+                        <div class="profile-img">
+                            <img class="actual-img" src="./pics/smille.jpg">
+                        </div>
+                        <div class="profile-img">
+                            <img class="actual-img" src="pics/jealous.jpg">
+                        </div>
+                        <div class="profile-img">
+                            <img class="actual-img" src="./pics/dog.jfif">
+                        </div>
+                        <div class="profile-img">
+                            <img class="actual-img" src="./pics/smille.jpg">
+                        </div>
+                        <div class="profile-img">
+                            <img class="actual-img" src="pics/jealous.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-bar">
+                    <div class="info-grid">
+                        <div class="info-creation">
+                            <p class="info-text">INFO</p>
+                            <button class="info-button"><img class="info-img" src="./pics/plus.png"></button>
+                        </div>
+
+                        <div class="tags">tags</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

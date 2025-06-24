@@ -3,59 +3,34 @@
     <head>
         <title>youtube clone</title>
         <link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900">
-        <style>
-            .video-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 30px;
-                row-gap: 30px;
-            }
-            p {
-                margin: 0px;
-                font-family: Roboto, Arial;
-                font-size: 16px;
-            }
-
-            .video-title {
-                font-weight: bold;
-                margin: 0px 0px 5px 0px;
-            }
-
-            .video-author, .video-stats {
-                color: rgb(96, 96, 96);
-                font-size: 13px;
-                margin-bottom: 2px;
-            }
-            
-            .video-preview {
-                height: 100%;
-            }
-
-            .video-picture {
-                width: 100%;
-            }
-
-            .video-info-grid {
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-
-            .video-description {
-                margin: 7px 0px 0px 0px;
-            }
-
-            .channel-picture {
-                vertical-align: top;
-                border-radius: 50%;
-                margin: 5px 10px 0px 0px;
-            }
-
-            .author-picture {
-                width: 100%;
-            }
-        </style>
+        <link rel="stylesheet" href="./css/general.css">
+        <link rel="stylesheet" href="./css/video.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/sidebar.css">
     </head>
-    <body style="padding-bottom: 2500px;">
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-logo" src="./icons/hamburger-menu-4.png">
+                <img class="youtube-logo" src="./icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button"><img class="search-img" src="./icons/search.svg"></button>
+                <button class="micro-button"><img class="micro-img" src="./icons/voice-search-icon.svg"></button>
+            </div>
+            <div class="right-section">
+                <img class="create-icon" src="./icons/upload.svg">
+                <img class="apps-icon" src="./icons/youtube-apps.svg">
+                <img class="notify-icon" src="./icons/notifications.svg">
+                <img class="user-picture" src="./pictures/author-picture.jpg">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            sidebar
+        </div>
+
         <div class="video-grid">
             <div class="video-preview">
                 <div>
@@ -75,7 +50,7 @@
 
             <div class="video-preview">
                 <div>
-                    <img class="video-picture" src="./pictures/video-picture.avif">
+                    <img class="video-picture" src="./pictures/hungry.jpg">
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -91,7 +66,7 @@
 
             <div class="video-preview">
                 <div>
-                    <img class="video-picture" src="./pictures/video-picture.avif">
+                    <img class="video-picture" src="./pictures/maria.jpg">
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -107,7 +82,7 @@
 
             <div class="video-preview">
                 <div>
-                    <img class="video-picture" src="./pictures/video-picture.avif">
+                    <img class="video-picture" src="./pictures/morning.avif">
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -123,7 +98,7 @@
 
             <div class="video-preview">
                 <div>
-                    <img class="video-picture" src="./pictures/video-picture.avif">
+                    <img class="video-picture" src="./pictures/python.avif">
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -136,9 +111,10 @@
                     </div>
                 </div>
             </div>
+
             <div class="video-preview">
                 <div>
-                    <img class="video-picture" src="./pictures/video-picture.avif">
+                    <img class="video-picture" src="./pictures/redcar.avif">
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
